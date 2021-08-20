@@ -25,11 +25,13 @@ function skip(array, n) {
     };
   }
 
-  for (var i = 0; i < n; i++) {
-    array.shift();
+  var result = [];
+
+  for (var i = n; i < array.length; i++) {
+    result.push(array[i]);
   }
 
-  return array;
+  return result;
 }
 
 module.exports = skip;
