@@ -1,20 +1,28 @@
 {
   "name": "library-array-helpers",
   "version": "1.0.0",
-  "description": "",
+  "description": "library functions for array for easy development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TimaLebed/library-array-helpers.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "TimaLebed <timalebedevskiy@mail.ru>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TimaLebed/library-array-helpers/issues"
   },
-  "homepage": "https://github.com/TimaLebed/library-array-helpers#readme"
+  "homepage": "https://github.com/TimaLebed/library-array-helpers#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-es5": "^1.2.0",
+    "eslint-plugin-import": "^2.24.1",
+    "jest": "^27.0.6"
+  }
 }
