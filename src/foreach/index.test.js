@@ -1,7 +1,9 @@
 var foreach = require('.');
 
-test('foreach(array, callback): foreach return result by callback', () => {
-  var mockCallback = jest.fn(x => 42 + x);
+test('foreach(array, callback): foreach return result by callback', function() {
+  var mockCallback = jest.fn(function(x) {
+    return 42 + x;
+  });
 
   foreach([0, 1], mockCallback);
 
