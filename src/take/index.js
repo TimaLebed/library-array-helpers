@@ -2,7 +2,7 @@ function take(array, n) {
   var result = [];
 
   if (typeof array === 'number') {
-    const number = array;
+    var number = array;
 
     this.result = take(this.result, number);
   }

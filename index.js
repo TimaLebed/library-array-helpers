@@ -8,12 +8,12 @@ var chain = require('./src/chain');
 var value = require('./src/value');
 
 module.exports = {
-  filter,
-  foreach,
-  map,
-  reduce,
-  skip,
-  take,
-  chain,
-  value,
+  filter: filter,
+  foreach: foreach,
+  map: map,
+  reduce: reduce,
+  skip: skip,
+  take: take,
+  chain: chain,
+  value: value,
 };

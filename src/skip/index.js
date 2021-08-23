@@ -2,7 +2,7 @@ function skip(array, n) {
   var result = [];
 
   if (typeof array === 'number') {
-    const number = array;
+    var number = array;
 
     this.result = skip(this.result, number);
   }
